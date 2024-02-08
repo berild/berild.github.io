@@ -1,15 +1,14 @@
+
 {
   "name": "berild",
   "version": "1.0.0",
   "homepage": "https://berild.github.io/",
+  "main": "node_modules/expo/AppEntry.js",
   "scripts": {
     "deploy": "gh-pages -t -d dist",
     "predeploy": "expo export -p web",
     "start": "expo start",
-    "android": "expo start --android",
-    "ios": "expo start --ios",
-    "web": "expo start --web",
-    "build": "npm "
+    "web": "expo start --web"
   },
   "dependencies": {
     "expo": "~50.0.6",
@@ -23,6 +22,5 @@
   "devDependencies": {
     "@babel/core": "^7.20.0",
     "gh-pages": "^6.1.1"
-  },
-  "private": true
+  }
 }
